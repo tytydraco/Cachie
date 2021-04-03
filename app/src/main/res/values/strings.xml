@@ -19,6 +19,30 @@
     <string name="category_config">Configuration</string>
     <string name="category_about">About</string>
 
+    <string name="pref_action_key_reset">reset</string>
+    <string name="pref_action_title_reset">Reset</string>
+    <string name="pref_action_summary_reset">Set everything back to device defaults</string>
+
+    <string name="pref_config_key_sys_storage_threshold_percentage">sys_storage_threshold_percentage</string>
+    <string name="pref_config_title_sys_storage_threshold_percentage">Low-storage minimum reporting threshold</string>
+    <string name="pref_config_summary_sys_storage_threshold_percentage">Percentage of available storage to consider the device to be running low on storage</string>
+
+    <string name="pref_config_key_sys_storage_threshold_max_bytes">sys_storage_threshold_max_bytes</string>
+    <string name="pref_config_title_sys_storage_threshold_max_bytes">Low-storage maximum byte threshold</string>
+    <string name="pref_config_summary_sys_storage_threshold_max_bytes">Maximum number of bytes to consider the device to be low on storage; prevents the above toggle from overshooting</string>
+
+    <string name="pref_config_key_sys_storage_full_threshold_bytes">sys_storage_full_threshold_bytes</string>
+    <string name="pref_config_title_sys_storage_full_threshold_bytes">Max-storage minimum bytes</string>
+    <string name="pref_config_summary_sys_storage_full_threshold_bytes">Maximum number of available storage to consider the device to be full; this number is reserved for the system to avoid system-wide crashing</string>
+
+    <string name="pref_config_key_sys_storage_cache_percentage">sys_storage_cache_percentage</string>
+    <string name="pref_config_title_sys_storage_cache_percentage">Cache minimum threshold</string>
+    <string name="pref_config_summary_sys_storage_cache_percentage">Percentage of available storage to reserve for cached data</string>
+
+    <string name="pref_config_key_sys_storage_cache_max_bytes">sys_storage_cache_max_bytes</string>
+    <string name="pref_config_title_sys_storage_cache_max_bytes">Cache maximum byte threshold</string>
+    <string name="pref_config_summary_sys_storage_cache_max_bytes">Maximum number of bytes to allow cached data to consume</string>
+
     <string name="pref_developer_title">Developer</string>
     <string name="pref_developer_summary">Tyler Nijmeh</string>
     <string name="pref_developer_key">developer</string>

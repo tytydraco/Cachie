@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/category_config">
+        <Preference
+            android:title="@string/pref_action_title_reset"
+            android:summary="@string/pref_action_summary_reset"
+            android:key="@string/pref_action_key_reset" />
+        <EditTextPreference
+            android:title="@string/pref_config_title_sys_storage_threshold_percentage"
+            android:summary="@string/pref_config_summary_sys_storage_threshold_percentage"
+            android:key="@string/pref_config_key_sys_storage_threshold_percentage" />
+        <EditTextPreference
+            android:title="@string/pref_config_title_sys_storage_threshold_max_bytes"
+            android:summary="@string/pref_config_summary_sys_storage_threshold_max_bytes"
+            android:key="@string/pref_config_key_sys_storage_threshold_max_bytes" />
+        <EditTextPreference
+            android:title="@string/pref_config_title_sys_storage_full_threshold_bytes"
+            android:summary="@string/pref_config_summary_sys_storage_full_threshold_bytes"
+            android:key="@string/pref_config_key_sys_storage_full_threshold_bytes" />
+        <EditTextPreference
+            android:title="@string/pref_config_title_sys_storage_cache_percentage"
+            android:summary="@string/pref_config_summary_sys_storage_cache_percentage"
+            android:key="@string/pref_config_key_sys_storage_cache_percentage" />
+        <EditTextPreference
+            android:title="@string/pref_config_title_sys_storage_cache_max_bytes"
+            android:summary="@string/pref_config_summary_sys_storage_cache_max_bytes"
+            android:key="@string/pref_config_key_sys_storage_cache_max_bytes" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/category_about">
         <Preference
